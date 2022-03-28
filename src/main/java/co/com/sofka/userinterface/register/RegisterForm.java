@@ -66,4 +66,8 @@ public class RegisterForm extends PageObject {
     public static final Target LOGIN_SUCCES_WELCOME_MSG = Target
             .the("Login succesfully")
             .located(xpath("/html/body/div/div[2]/div/div[3]/div/p"));
+
+    public static final Target SIGN_OUT = Target
+            .the("Log Out")
+            .located(xpath("/html/body/div/div[1]/header/div[2]/div/div/nav/div[2]/a"));
 }

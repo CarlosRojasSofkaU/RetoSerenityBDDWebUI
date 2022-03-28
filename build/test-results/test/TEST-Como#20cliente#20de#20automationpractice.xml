@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Como cliente de automationpractice" tests="2" skipped="0" failures="2" errors="0" timestamp="2022-03-28T14:09:03" hostname="DESKTOP-1NGVHTM" time="54.933">
+<testsuite name="Como cliente de automationpractice" tests="2" skipped="0" failures="2" errors="0" timestamp="2022-03-28T17:13:28" hostname="DESKTOP-1NGVHTM" time="58.068">
   <properties/>
-  <testcase name=": Registro exitoso con los campos obligatorios." classname="Como cliente de automationpractice" time="35.526">
-    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#customer_firstname&quot;}&#10;  (Session info: chrome=99.0.4844.84)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-1NGVHTM', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8-internal'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\carlo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55497}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0cb841e610961223c6e022af65209f43&#10;*** Element info: {Using=id, value=customer_firstname}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#customer_firstname&quot;}
+  <testcase name="Ingreso exitoso con los campos obligatorios." classname="Como cliente de automationpractice" time="24.613">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#customer_firstname&quot;}&#10;  (Session info: chrome=99.0.4844.84)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-1NGVHTM', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8-internal'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\carlo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 590f6bd6a3e60a85a144d1926a98b29b&#10;*** Element info: {Using=id, value=customer_firstname}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#customer_firstname&quot;}
   (Session info: chrome=99.0.4844.84)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-1NGVHTM', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8-internal'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\carlo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55497}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0cb841e610961223c6e022af65209f43
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\carlo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 590f6bd6a3e60a85a144d1926a98b29b
 *** Element info: {Using=id, value=customer_firstname}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -48,7 +48,7 @@ Session ID: 0cb841e610961223c6e022af65209f43
 	at net.serenitybdd.screenplay.Actor.performWithoutReporting(Actor.java:213)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:173)
 	at co.com.sofka.task.register.FillRegisterForm.performAs(FillRegisterForm.java:72)
-	at co.com.sofka.task.register.FillRegisterForm$ByteBuddy$qXfkLYng.performAs$accessor$yTdtuWBW(Unknown Source)
+	at co.com.sofka.task.register.FillRegisterForm$ByteBuddy$humhqQ9S.performAs$accessor$hdvmuKft(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -60,24 +60,25 @@ Session ID: 0cb841e610961223c6e022af65209f43
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
 	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at co.com.sofka.task.register.FillRegisterForm$ByteBuddy$qXfkLYng.performAs(Unknown Source)
+	at co.com.sofka.task.register.FillRegisterForm$ByteBuddy$humhqQ9S.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:175)
-	at co.com.sofka.stepdefinition.register.RegisterTestStepDefinition.haLlenadoLosCamposObligatoriosParaElRegistroYEnviado(RegisterTestStepDefinition.java:61)
-	at ✽.ha llenado los campos obligatorios para el registro y enviado(file:///C:/Users/carlo/IdeaProjects/Retos/RetoSerenityBDDWebUI/src/test/resources/features/register/register.feature:14)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:162)
+	at co.com.sofka.stepdefinition.login.LoginTestStepDefinition.queElClienteSeEncuentraEnElLandingPageDeLaPaginaWeb(LoginTestStepDefinition.java:48)
+	at ✽.que el cliente se encuentra en el landing page de la pagina web(file:///C:/Users/carlo/IdeaProjects/Retos/RetoSerenityBDDWebUI/src/test/resources/features/login/login.feature:8)
 </failure>
   </testcase>
-  <testcase name=": Registro fallido con los campos obligatorios menos la contrasena" classname="Como cliente de automationpractice" time="19.405">
-    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email_create&quot;}&#10;  (Session info: chrome=99.0.4844.84)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-1NGVHTM', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8-internal'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\carlo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4b770da5c51b59fcd937ef9460e8887c&#10;*** Element info: {Using=id, value=email_create}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email_create&quot;}
+  <testcase name="Ingreso fallido con los campos obligatorios y contraseña erronea." classname="Como cliente de automationpractice" time="33.455">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#customer_firstname&quot;}&#10;  (Session info: chrome=99.0.4844.84)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-1NGVHTM', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8-internal'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\carlo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a6a314cf3174e3d0d58e89ca875913ca&#10;*** Element info: {Using=id, value=customer_firstname}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#customer_firstname&quot;}
   (Session info: chrome=99.0.4844.84)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-1NGVHTM', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8-internal'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\carlo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4b770da5c51b59fcd937ef9460e8887c
-*** Element info: {Using=id, value=email_create}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\carlo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6a314cf3174e3d0d58e89ca875913ca
+*** Element info: {Using=id, value=customer_firstname}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -114,8 +115,8 @@ Session ID: 4b770da5c51b59fcd937ef9460e8887c
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
 	at net.serenitybdd.screenplay.Actor.performWithoutReporting(Actor.java:213)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:173)
-	at co.com.sofka.task.register.BrowseToRegisterForm.performAs(BrowseToRegisterForm.java:23)
-	at co.com.sofka.task.register.BrowseToRegisterForm$ByteBuddy$A6kYP6Tp.performAs$accessor$QCWoLwZW(Unknown Source)
+	at co.com.sofka.task.register.FillRegisterForm.performAs(FillRegisterForm.java:72)
+	at co.com.sofka.task.register.FillRegisterForm$ByteBuddy$humhqQ9S.performAs$accessor$hdvmuKft(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -127,33 +128,33 @@ Session ID: 4b770da5c51b59fcd937ef9460e8887c
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
 	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at co.com.sofka.task.register.BrowseToRegisterForm$ByteBuddy$A6kYP6Tp.performAs(Unknown Source)
+	at co.com.sofka.task.register.FillRegisterForm$ByteBuddy$humhqQ9S.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:175)
-	at co.com.sofka.stepdefinition.register.RegisterTestStepDefinition.elClienteIngresaUnCorreoValidoParaElRegistroYPresionaCrearUnNuevoUsuario(RegisterTestStepDefinition.java:52)
-	at ✽.el cliente ingresa un correo valido para el registro &quot;calymony&quot; y presiona crear un nuevo usuario(file:///C:/Users/carlo/IdeaProjects/Retos/RetoSerenityBDDWebUI/src/test/resources/features/register/register.feature:33)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:162)
+	at co.com.sofka.stepdefinition.login.LoginTestStepDefinition.queElClienteSeEncuentraEnElLandingPageDeLaPaginaWeb(LoginTestStepDefinition.java:48)
+	at ✽.que el cliente se encuentra en el landing page de la pagina web(file:///C:/Users/carlo/IdeaProjects/Retos/RetoSerenityBDDWebUI/src/test/resources/features/login/login.feature:8)
 </failure>
   </testcase>
   <system-out><![CDATA[Step argument class io.cucumber.core.gherkin.vintage.GherkinVintageDataTableArgument
 Step argument class io.cucumber.core.gherkin.vintage.GherkinVintageDataTableArgument
-Step argument class io.cucumber.core.gherkin.vintage.GherkinVintageDataTableArgument
 ]]></system-out>
-  <system-err><![CDATA[mar. 28, 2022 9:09:04 A. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[mar. 28, 2022 12:13:29 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 27368
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 46631
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-mar. 28, 2022 9:09:08 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+mar. 28, 2022 12:13:33 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-mar. 28, 2022 9:09:38 A. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+mar. 28, 2022 12:13:52 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 47760
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 30238
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-mar. 28, 2022 9:09:40 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+mar. 28, 2022 12:13:54 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

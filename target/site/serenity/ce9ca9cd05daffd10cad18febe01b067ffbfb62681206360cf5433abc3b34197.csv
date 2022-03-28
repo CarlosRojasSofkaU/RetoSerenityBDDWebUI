@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Como cliente de automationpractice","Ingreso de una problematica con los campos obligatorios.","SUCCESS","2022-03-28T12:09:21.3978582-05:00[America/Bogota]","0.0","41.96"
+"Como cliente de automationpractice",": Ingreso de una problematica con los campos obligatorios diligenciados menos el de mensaje.","SUCCESS","2022-03-28T12:10:03.3759049-05:00[America/Bogota]","0.0","38.47"
+"Como cliente de automationpractice","Ingreso exitoso con los campos obligatorios.","ERROR","2022-03-28T12:13:28.5876356-05:00[America/Bogota]","0.0","23.02"
+"Como cliente de automationpractice","Ingreso fallido con los campos obligatorios y contraseña erronea.","ERROR","2022-03-28T12:13:52.8416402-05:00[America/Bogota]","0.0","33.43"
+"Como cliente de automationpractice",": Registro exitoso con los campos obligatorios.","ERROR","2022-03-28T12:11:07.5202492-05:00[America/Bogota]","0.0","42.03"
+"Como cliente de automationpractice",": Registro fallido con los campos obligatorios menos la contrasena","SUCCESS","2022-03-28T12:11:50.4298987-05:00[America/Bogota]","0.0","39.48"

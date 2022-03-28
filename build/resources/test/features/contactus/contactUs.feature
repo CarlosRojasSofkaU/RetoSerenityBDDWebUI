@@ -6,7 +6,6 @@ Característica: Como cliente de automationpractice
 
   Antecedentes: que el cliente se encuentra en la landing page de la pagina web.
 
-  @Regresion
   Esquema del escenario: Ingreso de una problematica con los campos obligatorios.
     Dado que el cliente se encuentra en la landing page de automationpractice
     Cuando el cliente navega y entra a la opcion de contactanos
@@ -19,7 +18,6 @@ Característica: Como cliente de automationpractice
     |subjectHeading|emailAddress|message|
     |Webmaster     |calyman@gmail.com|Hello world|
 
-  @Regresion
   Esquema del escenario: : Ingreso de una problematica con los campos obligatorios diligenciados menos el de mensaje.
     Dado que el cliente se encuentra en la landing page de automationpractice
     Cuando el cliente navega y entra a la opcion de contactanos

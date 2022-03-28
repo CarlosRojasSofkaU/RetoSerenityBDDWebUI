@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         features = {"src/test/resources/features/contactus/contactUs.feature"},
         glue = {"co.com.sofka.stepdefinition.contactus"},
-        tags = {"@Regresion"}
+        tags = {""}
 )
 public class ContactUsTest {
 }

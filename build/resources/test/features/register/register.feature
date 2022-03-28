@@ -6,7 +6,6 @@ Característica: Como cliente de automationpractice
 
   Antecedentes: que el cliente se encuentra en el landing page de la pagina web.
 
-  @Regresion
   Esquema del escenario: : Registro exitoso con los campos obligatorios.
     Dado que el cliente se encuentra en el landing page de la pagina web
     Cuando el cliente navega y entra a la opcion de login
@@ -26,7 +25,6 @@ Característica: Como cliente de automationpractice
     |firstName|lastName|password|address|city|state|zipCode|country|mobilePhone|
     |Caly|Man|calyman|Mza 38 C 3 B La Churria|Pereira|Florida|60000|United States|0363130256|
 
-  @Regresion
   Esquema del escenario: : Registro fallido con los campos obligatorios menos la contrasena
     Dado que el cliente se encuentra en el landing page de la pagina web
     Cuando el cliente navega y entra a la opcion de login

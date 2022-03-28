@@ -1,0 +1,29 @@
+
+q
+java:S1450"VRemove the "address" field and declare it as a local variable in the relevant methods.(÷§ùÿÿÿÿ
+i
+java:S1450"SRemove the "city" field and declare it as a local variable in the relevant methods.(“øÌà
+q
+java:S1450"VRemove the "country" field and declare it as a local variable in the relevant methods.(“—àÊúÿÿÿÿ
+p
+java:S1450"ZRemove the "mobilePhone" field and declare it as a local variable in the relevant methods.(àìÖµ
+r
+java:S1450"WRemove the "password" field and declare it as a local variable in the relevant methods.(œãë­úÿÿÿÿ
+o
+java:S1450"TRemove the "state" field and declare it as a local variable in the relevant methods.(µîŠ©øÿÿÿÿ
+l
+java:S1450"VRemove the "zipCode" field and declare it as a local variable in the relevant methods.(ŞùÎå
+G
+java:S1068",Remove this unused "password" private field.(œãë­úÿÿÿÿ
+F
+java:S1068"+Remove this unused "address" private field.(÷§ùÿÿÿÿ
+>
+java:S1068"(Remove this unused "city" private field.(“øÌà
+D
+java:S1068")Remove this unused "state" private field.(µîŠ©øÿÿÿÿ
+A
+java:S1068"+Remove this unused "zipCode" private field.(ŞùÎå
+F
+java:S1068"+Remove this unused "country" private field.(“—àÊúÿÿÿÿ
+E
+java:S1068"/Remove this unused "mobilePhone" private field.(àìÖµ

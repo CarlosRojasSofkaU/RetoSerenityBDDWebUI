@@ -122,7 +122,7 @@ public class RegisterTestStepDefinition extends Setup{
                                 .wasFilledWithZipCode(dataToValidate.row(5).get(1))
                                 .wasFilledWithCountry(dataToValidate.row(6).get(1))
                                 .andWithMobilePhone(dataToValidate.row(7).get(1))
-                                .is(), equalTo(true)
+                                .is(), equalTo(false)
                 )
                         .orComplainWith(ValidationTextDoNotMatch.class, String.format(VALIDATION_DO_NOT_MATCH, compareInWithSystemOutcome(REGISTRATION_PASSWD_ERROR)))
         );

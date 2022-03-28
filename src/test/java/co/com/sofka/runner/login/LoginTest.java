@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         features = {"src/test/resources/features/login/login.feature"},
         glue = {"co.com.sofka.stepdefinition.login"},
-        tags = {"@Regresion"}
+        tags = {""}
 )
 public class LoginTest {
 }

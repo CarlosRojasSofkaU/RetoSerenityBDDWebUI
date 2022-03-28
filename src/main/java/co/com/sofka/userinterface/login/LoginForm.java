@@ -45,5 +45,5 @@ public class LoginForm extends PageObject {
 
     public static final Target LOGIN_SUCCES_WELCOME_MSG = Target
             .the("Login succesfully")
-            .located(xpath("/html/body/div/div[2]/div/div[3]/div/p/text()"));
+            .located(xpath("/html/body/div/div[2]/div/div[3]/div/p"));
 }

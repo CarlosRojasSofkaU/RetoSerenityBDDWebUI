@@ -1,0 +1,15 @@
+
+v
+java:S1450"[Remove the "emailAddress" field and declare it as a local variable in the relevant methods.(Œ¯Ïµýÿÿÿÿ
+q
+java:S1450"VRemove the "message" field and declare it as a local variable in the relevant methods.(ù„è¿ûÿÿÿÿ
+x
+java:S1450
+"]Remove the "subjectHeading" field and declare it as a local variable in the relevant methods.(ÈÕç¼üÿÿÿÿ
+M
+java:S1068
+"2Remove this unused "subjectHeading" private field.(ÈÕç¼üÿÿÿÿ
+K
+java:S1068"0Remove this unused "emailAddress" private field.(Œ¯Ïµýÿÿÿÿ
+F
+java:S1068"+Remove this unused "message" private field.(ù„è¿ûÿÿÿÿ
