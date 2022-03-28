@@ -38,6 +38,8 @@ Para usar este proyecto es necesario tener los siguientes plugins en un IDE que 
 
 y dependencias como las de Serenity BDD, jackson, entre otras
 
+**TENER EN CUENTA QUE LA PÁGINA SE QUEDA PEGADA A RATOS, PARECE QUE ESTO ESTÁ AFECTANDO LAS PRUEBAS**
+
 
 ## Plan de pruebas
 
