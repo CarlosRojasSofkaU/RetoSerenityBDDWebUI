@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">37.278s</div>
+<div class="counter">54.931s</div>
 <p>duration</p>
 </div>
 </td>
@@ -76,18 +76,18 @@
 <div id="tab0" class="tab">
 <h2>Failed tests</h2>
 <div class="test">
-<a name=": Ingreso de una problematica con los campos obligatorios diligenciados menos el de mensaje."></a>
-<h3 class="failures">: Ingreso de una problematica con los campos obligatorios diligenciados menos el de mensaje.</h3>
+<a name=": Registro exitoso con los campos obligatorios."></a>
+<h3 class="failures">: Registro exitoso con los campos obligatorios.</h3>
 <span class="code">
-<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div/div[2]/div/div[3]/div/div/ol/li&quot;}
+<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#customer_firstname&quot;}
   (Session info: chrome=99.0.4844.84)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-1NGVHTM', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8-internal'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\carlo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63864}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 78f54b0280573e86d62868fc1e830f63
-*** Element info: {Using=xpath, value=/html/body/div/div[2]/div/div[3]/div/div/ol/li}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\carlo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55497}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cb841e610961223c6e022af65209f43
+*** Element info: {Using=id, value=customer_firstname}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -99,46 +99,8 @@ Session ID: 78f54b0280573e86d62868fc1e830f63
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
-	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:25)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.getResolvedELement(WebElementFacadeImpl.java:234)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:229)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.getText(WebElementFacadeImpl.java:1117)
-	at co.com.sofka.stepdefinition.contactus.ContactUsTestStepDefinition.compareInWithSystemOutcome(ContactUsTestStepDefinition.java:95)
-	at co.com.sofka.stepdefinition.contactus.ContactUsTestStepDefinition.elSistemaDeberaMostrarEnPantallaUnMensajeDeErrorPidiendoQueSeEnvieUnMensaje(ContactUsTestStepDefinition.java:89)
-	at ✽.el sistema debera mostrar en pantalla un mensaje de error pidiendo que se envie un mensaje(file:///C:/Users/carlo/IdeaProjects/Retos/RetoSerenityBDDWebUI/src/test/resources/features/contactus/contactUs.feature:29)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="Ingreso de una problematica con los campos obligatorios."></a>
-<h3 class="failures">Ingreso de una problematica con los campos obligatorios.</h3>
-<span class="code">
-<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;contact-link&quot;]/a&quot;}
-  (Session info: chrome=99.0.4844.84)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-1NGVHTM', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8-internal'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\carlo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f4a88e5f7b3419067102448a15d1da13
-*** Element info: {Using=xpath, value=//*[@id=&quot;contact-link&quot;]/a}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
 	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:25)
@@ -162,8 +124,8 @@ Session ID: f4a88e5f7b3419067102448a15d1da13
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
 	at net.serenitybdd.screenplay.Actor.performWithoutReporting(Actor.java:213)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:173)
-	at co.com.sofka.task.contactus.BrowseToContactUsForm.performAs(BrowseToContactUsForm.java:14)
-	at co.com.sofka.task.contactus.BrowseToContactUsForm$ByteBuddy$lMmMeSui.performAs$accessor$pGBkSbAr(Unknown Source)
+	at co.com.sofka.task.register.FillRegisterForm.performAs(FillRegisterForm.java:72)
+	at co.com.sofka.task.register.FillRegisterForm$ByteBuddy$qXfkLYng.performAs$accessor$yTdtuWBW(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -175,12 +137,83 @@ Session ID: f4a88e5f7b3419067102448a15d1da13
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
 	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at co.com.sofka.task.contactus.BrowseToContactUsForm$ByteBuddy$lMmMeSui.performAs(Unknown Source)
+	at co.com.sofka.task.register.FillRegisterForm$ByteBuddy$qXfkLYng.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:175)
-	at co.com.sofka.stepdefinition.contactus.ContactUsTestStepDefinition.elClienteNavegaYEntraALaOpcionDeContactanos(ContactUsTestStepDefinition.java:38)
-	at ✽.el cliente navega y entra a la opcion de contactanos(file:///C:/Users/carlo/IdeaProjects/Retos/RetoSerenityBDDWebUI/src/test/resources/features/contactus/contactUs.feature:12)
+	at co.com.sofka.stepdefinition.register.RegisterTestStepDefinition.haLlenadoLosCamposObligatoriosParaElRegistroYEnviado(RegisterTestStepDefinition.java:61)
+	at ✽.ha llenado los campos obligatorios para el registro y enviado(file:///C:/Users/carlo/IdeaProjects/Retos/RetoSerenityBDDWebUI/src/test/resources/features/register/register.feature:14)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name=": Registro fallido con los campos obligatorios menos la contrasena"></a>
+<h3 class="failures">: Registro fallido con los campos obligatorios menos la contrasena</h3>
+<span class="code">
+<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email_create&quot;}
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1NGVHTM', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8-internal'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\carlo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b770da5c51b59fcd937ef9460e8887c
+*** Element info: {Using=id, value=email_create}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:25)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getResolvedELement(WebElementFacadeImpl.java:234)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:229)
+	at net.thucydides.core.webdriver.javascript.JavascriptExecutorFacade.webElementOrPrimitiveTypeOf(JavascriptExecutorFacade.java:88)
+	at net.thucydides.core.webdriver.javascript.JavascriptExecutorFacade.lambda$extractedWebElementsAndPrimitiveTypesFrom$0(JavascriptExecutorFacade.java:82)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at net.thucydides.core.webdriver.javascript.JavascriptExecutorFacade.extractedWebElementsAndPrimitiveTypesFrom(JavascriptExecutorFacade.java:83)
+	at net.thucydides.core.webdriver.javascript.JavascriptExecutorFacade.executeScript(JavascriptExecutorFacade.java:71)
+	at net.serenitybdd.core.pages.PageObject.evaluateJavascript(PageObject.java:1205)
+	at net.serenitybdd.screenplay.actions.ScrollTo.performScrollTo(ScrollTo.java:23)
+	at net.serenitybdd.screenplay.actions.ScrollToTarget.performAs(ScrollToTarget.java:14)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
+	at net.serenitybdd.screenplay.Actor.performWithoutReporting(Actor.java:213)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:173)
+	at co.com.sofka.task.register.BrowseToRegisterForm.performAs(BrowseToRegisterForm.java:23)
+	at co.com.sofka.task.register.BrowseToRegisterForm$ByteBuddy$A6kYP6Tp.performAs$accessor$QCWoLwZW(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at co.com.sofka.task.register.BrowseToRegisterForm$ByteBuddy$A6kYP6Tp.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:175)
+	at co.com.sofka.stepdefinition.register.RegisterTestStepDefinition.elClienteIngresaUnCorreoValidoParaElRegistroYPresionaCrearUnNuevoUsuario(RegisterTestStepDefinition.java:52)
+	at ✽.el cliente ingresa un correo valido para el registro &quot;calymony&quot; y presiona crear un nuevo usuario(file:///C:/Users/carlo/IdeaProjects/Retos/RetoSerenityBDDWebUI/src/test/resources/features/register/register.feature:33)
 </pre>
 </span>
 </div>
@@ -196,13 +229,13 @@ Session ID: f4a88e5f7b3419067102448a15d1da13
 </tr>
 </thead>
 <tr>
-<td class="failures">: Ingreso de una problematica con los campos obligatorios diligenciados menos el de mensaje.</td>
-<td class="failures">24.623s</td>
+<td class="failures">: Registro exitoso con los campos obligatorios.</td>
+<td class="failures">35.526s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="failures">Ingreso de una problematica con los campos obligatorios.</td>
-<td class="failures">12.655s</td>
+<td class="failures">: Registro fallido con los campos obligatorios menos la contrasena</td>
+<td class="failures">19.405s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -212,27 +245,28 @@ Session ID: f4a88e5f7b3419067102448a15d1da13
 <span class="code">
 <pre>Step argument class io.cucumber.core.gherkin.vintage.GherkinVintageDataTableArgument
 Step argument class io.cucumber.core.gherkin.vintage.GherkinVintageDataTableArgument
+Step argument class io.cucumber.core.gherkin.vintage.GherkinVintageDataTableArgument
 </pre>
 </span>
 </div>
 <div id="tab3" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>mar. 28, 2022 5:10:50 A. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+<pre>mar. 28, 2022 9:09:04 A. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 47368
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 27368
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-mar. 28, 2022 5:10:54 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+mar. 28, 2022 9:09:08 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-mar. 28, 2022 5:11:02 A. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+mar. 28, 2022 9:09:38 A. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 14041
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 47760
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-mar. 28, 2022 5:11:04 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+mar. 28, 2022 9:09:40 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 </pre>
 </span>
@@ -245,7 +279,7 @@ INFORMACIÓN: Detected dialect: W3C
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.1</a> at 28/03/2022, 5:11:31 a. m.</p>
+<a href="http://www.gradle.org">Gradle 7.1</a> at 28/03/2022, 9:10:00 a. m.</p>
 </div>
 </div>
 </body>

@@ -10,7 +10,7 @@ Característica: Como cliente de automationpractice
   Esquema del escenario: : Registro exitoso con los campos obligatorios.
     Dado que el cliente se encuentra en el landing page de la pagina web
     Cuando el cliente navega y entra a la opcion de login
-    Y el cliente ingresa un correo valido para el registro "calyman12345@gmail.com" y presiona crear un nuevo usuario
+    Y el cliente ingresa un correo valido para el registro "calymony" y presiona crear un nuevo usuario
     Y ha llenado los campos obligatorios para el registro y enviado
     |firstName|<firstName>|
     |lastName|<lastName>|
@@ -30,7 +30,7 @@ Característica: Como cliente de automationpractice
   Esquema del escenario: : Registro fallido con los campos obligatorios menos la contrasena
     Dado que el cliente se encuentra en el landing page de la pagina web
     Cuando el cliente navega y entra a la opcion de login
-    Y el cliente ingresa un correo valido para el registro "calyman54321@gmail.com" y presiona crear un nuevo usuario
+    Y el cliente ingresa un correo valido para el registro "calymony" y presiona crear un nuevo usuario
     Y ha llenado los campos obligatorios para el registro menos la contrasena y enviado
     |firstName|<firstName>|
     |lastName|<lastName>|
