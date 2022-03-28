@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Como cliente de automationpractice" skipped="0" tests="2" time="0.47" timestamp="2022-03-28 01:05:42"><testcase name=": Registro exitoso con los campos obligatorios."/><testcase name=": Registro fallido con los campos obligatorios menos la contrasena"/></testsuite>

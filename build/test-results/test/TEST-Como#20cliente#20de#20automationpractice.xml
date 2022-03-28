@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Como cliente de automationpractice" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-28T06:05:59" hostname="DESKTOP-1NGVHTM" time="0.905">
+  <properties/>
+  <testcase name="Ingreso exitoso con los campos obligatorios." classname="Como cliente de automationpractice" time="0.825"/>
+  <testcase name="Ingreso fallido con los campos obligatorios y contraseña erronea." classname="Como cliente de automationpractice" time="0.08"/>
+  <system-out><![CDATA[Step argument class io.cucumber.core.gherkin.vintage.GherkinVintageDataTableArgument
+Step argument class io.cucumber.core.gherkin.vintage.GherkinVintageDataTableArgument
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
